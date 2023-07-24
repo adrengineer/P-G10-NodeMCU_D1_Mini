@@ -1,13 +1,14 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 
+
 int state = LOW;
 int LED = LED_BUILTIN;
 char on = LOW;
 char off = HIGH;
 
-const char* ssid = "Vishal";
-const char* password = "vvishal123";
+const char* ssid = "Mi Phone";
+const char* password = "fb41f23ed441";
 
 WiFiServer server(80);
 
